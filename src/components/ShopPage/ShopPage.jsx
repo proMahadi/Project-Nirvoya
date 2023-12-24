@@ -56,7 +56,7 @@ const ShopPage = () => {
                         </div>
                 <div className='flex lg:gap-x-[53px]'>
                     <div>
-                        <div className={`py-6 px-5 bg-white w-[300px] absolute lg:static ${showFilter ? ' top-[256px] left-0' : 'top-[256px] -left-72'}`}>
+                        <div className={`z-10 py-6 px-5 bg-white w-[300px] absolute lg:static ${showFilter ? ' top-[256px] left-0' : 'top-[256px] -left-72'}`}>
                             <div className='flex justify-between'>
                                 <h4 className='font-pops text-lg font-medium text-[#3D3D3F]'>Related Categories</h4>
                                 <RxCross1 onClick={() => { setShowFilter(!showFilter) }} className='lg:hidden block text-3xl' />
