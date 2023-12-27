@@ -219,6 +219,18 @@ const ProductInfoSlider = () => {
             <div>
                 <Slider {...settings} className='lg:w-[678px] w-auto'>
                     <div>
+                        <img className='lg:w-[519px] sm:w-[350px]  md:w-full object-cover' src={"https://i.ibb.co/NSzqfbp/product1.png"} />
+                    </div>
+                    <div>
+                        <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={"https://i.ibb.co/YLSWBWv/product2.png"} />
+                    </div>
+                    <div>
+                        <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={"https://i.ibb.co/2SVBpFW/product3.png"} />
+                    </div>
+                    <div>
+                        <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={"https://i.ibb.co/wBq7sSv/product4.png"} />
+                    </div>
+                    {/* <div>
                         <img className='lg:w-[519px] sm:w-[350px]  md:w-full object-cover' src={baseUrl + "/product1.png"} />
                     </div>
                     <div>
@@ -229,7 +241,7 @@ const ProductInfoSlider = () => {
                     </div>
                     <div>
                         <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={baseUrl + "/product4.png"} />
-                    </div>
+                    </div> */}
                 </Slider>
             </div>
         </div>
