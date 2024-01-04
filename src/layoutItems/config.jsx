@@ -1,2 +1,1 @@
-export const baseUrl ='../assets'
-export default baseUrl;
+export const baseUrl ='../src/assets'

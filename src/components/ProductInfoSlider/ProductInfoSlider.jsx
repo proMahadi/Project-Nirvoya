@@ -218,7 +218,7 @@ const ProductInfoSlider = () => {
         <div>
             <div>
                 <Slider {...settings} className='lg:w-[678px] w-auto'>
-                    {/* <div>
+                    <div>
                         <img className='lg:w-[519px] sm:w-[350px]  md:w-full object-cover' src={"https://i.ibb.co/NSzqfbp/product1.png"} />
                     </div>
                     <div>
@@ -229,8 +229,8 @@ const ProductInfoSlider = () => {
                     </div>
                     <div>
                         <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={"https://i.ibb.co/wBq7sSv/product4.png"} />
-                    </div> */}
-                    <div>
+                    </div>
+                    {/* <div>
                         <img className='lg:w-[519px] sm:w-[350px]  md:w-full object-cover' src={baseUrl + "/product1.png"} />
                     </div>
                     <div>
@@ -241,7 +241,7 @@ const ProductInfoSlider = () => {
                     </div>
                     <div>
                         <img className='lg:w-[519px] sm:w-[350px] md:w-full object-cover' src={baseUrl + "/product4.png"} />
-                    </div>
+                    </div> */}
                 </Slider>
             </div>
         </div>
